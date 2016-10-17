@@ -1,9 +1,13 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
-VisualStudioVersion = 14.0.24720.0
+VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LightInjectTests", "LightInjectTests\LightInjectTests.csproj", "{E29547B1-4AAD-4CCD-A365-E755A24EA75A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NinjectTests", "NinjectTests\NinjectTests.csproj", "{25268DCB-AA25-4944-9681-8BE080EC34FB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SampleTypes", "SampleTypes\SampleTypes.csproj", "{B8613093-7809-441E-9061-41109762E54D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +19,14 @@ Global
 		{E29547B1-4AAD-4CCD-A365-E755A24EA75A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E29547B1-4AAD-4CCD-A365-E755A24EA75A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E29547B1-4AAD-4CCD-A365-E755A24EA75A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{25268DCB-AA25-4944-9681-8BE080EC34FB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{25268DCB-AA25-4944-9681-8BE080EC34FB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{25268DCB-AA25-4944-9681-8BE080EC34FB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{25268DCB-AA25-4944-9681-8BE080EC34FB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B8613093-7809-441E-9061-41109762E54D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B8613093-7809-441E-9061-41109762E54D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B8613093-7809-441E-9061-41109762E54D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B8613093-7809-441E-9061-41109762E54D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

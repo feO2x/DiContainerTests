@@ -1,17 +1,10 @@
 ﻿using System;
 
-namespace LightInjectTests
+namespace SampleTypes
 {
     public class SampleClass : ISampleInterface
     {
         private string _value3 = string.Empty;
-        public string Value1 { get; }
-        public int Value2 { get; private set; }
-
-        public void AdjustValue2()
-        {
-            Value2 += Value1.Length + Value3.Length;
-        }
 
         public SampleClass(string value1, int value2)
         {
@@ -30,6 +23,14 @@ namespace LightInjectTests
 
                 _value3 = value;
             }
+        }
+
+        public string Value1 { get; }
+        public int Value2 { get; private set; }
+
+        public void AdjustValue2()
+        {
+            Value2 += Value1.Length + Value3.Length;
         }
     }
 

@@ -1,16 +1,15 @@
 ﻿using FluentAssertions;
 using LightInject;
+using SampleTypes;
 using Xunit;
 
 namespace LightInjectTests
 {
-    public sealed class Tests
+    public sealed class TestsForLightInject : BaseTest
     {
         private readonly ServiceContainer _serviceContainer = new ServiceContainer();
-        private const string Value1 = "Foo";
-        private const int Value2 = 42;
 
-        public Tests()
+        public TestsForLightInject()
         {
             _serviceContainer.RegisterInstance(Value1);
             _serviceContainer.RegisterInstance(Value2);
